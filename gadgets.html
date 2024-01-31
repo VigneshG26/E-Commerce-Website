@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazzle</title>
+    <link rel="icon" href="Photos/samplelogo2.jpg">
+    <link rel="stylesheet" href="productpage.css">
+    <link rel="stylesheet" href="cart1.css">
+    <script src="https://kit.fontawesome.com/4211a110a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><a href="index.html"><img src="Photos/samplelogo2.jpg" width="148px" height="178px"></a></div>
+        <div class="cont">
+            <h2 id="h2">Jazzle</h2><br>
+            <input id="btn" type="text" placeholder="Search Products" name="search" style="opacity: 0;;">
+            <button id="b1" type="submit"><i class="fa fa-search" style="opacity: 0;"></i></button>
+        </div>
+        <ul class="ulclass">
+            <li><a href="index.html"><i class="fa fa-home" ></i>Home</li></a>
+            <li><a href="mens1.html"><i class="fa-solid fa-person"></i>Mens</li></a>
+            <li><a href="womens.html"><i class="fa-sharp fa-solid fa-person-dress"></i>Women</li></a>
+            <li><a href="kids.html"><i class="fa-solid fa-child-reaching"></i>Kids</li></a>
+            <li><a href="gadgets.html"><i class="fa-brands fa-product-hunt"></i> Gadgets</li></a>
+            <li><a href="login.html"><i class="fa fa-user-plus" ></i>Login</li></a>
+            <li><a href="registration.html"><i class="fa fa-sign-in" ></i>Register</li></a>
+            <!-- <li><a href="cart1.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i>Cart</li></a> -->
+            <li><a href="aboutus.html"><i class="fa-solid fa-address-card"></i> About</li></a>
+        </ul>
+    </header>
+    
+    <center>
+        <br><br><br>
+          <div class="cart" id="cart">
+            <div class="title">CART</div><hr/>
+            <div id="title"></div>
+        </div>
+        <!-- 1st section -->
+        <h1>Bluetooth Speakers</h1>
+        <br>
+        <div class="menfas">
+        
+        <figure class="container">
+            <div class="card" id="bs1">
+                <img src="https://5.imimg.com/data5/UI/RF/MY-10422114/music-mini-bluetooth-speaker-500x500.jpg">
+                <div class="title">Bluetooth White Class <br> 
+                <p><b>Rate: Rs. 1000 </b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(bs1)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+    
+    
+        <figure class="container">
+            <div class="card" id="bs2">
+                <img src="https://images.unsplash.com/photo-1589003077984-894e133dabab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZXRvb3RoJTIwc3BlYWtlcnxlbnwwfHwwfHw%3D&w=1000&q=80">
+                <div class="title">Bluetooth Colour Speaker
+                    <p><b>Rate: Rs. 1200 </b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(bs2)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+        <figure class="container">
+            <div class="card" id="bs3">
+                <img src="https://media.istockphoto.com/id/1199427977/photo/portable-wireless-bluetooth-dj-speaker-isolated-on-white-side-view-of-black-stereo-sound.jpg?b=1&s=170667a&w=0&k=20&c=hPYdDcW5hcBOA-HNzXWVvCO3txOYpnMUB0vFVTuXj4Y=">
+                <div class="title">Bluetooth Black Speaker
+                    <p><b>Rate: Rs. 4200</b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(bs3)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+        <figure class="container">
+            <div class="card" id="bs4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7kJJ6H3ZybpsgQ1apVQJQs4XS1e7J6RLrrQ&usqp=CAU">
+                <div class="title">Bluetooth Orange Speaker
+                    <p><b>Rate: Rs. 3200</b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(bs4)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+        <figure class="container">
+            <div class="card" id="bs5">
+                <img src="https://images.macrumors.com/article-new/2023/01/HomePod-2-White-and-Midnight-Feature-Blue-Orange.jpg">
+                <div class="title">Bluetooth Combo Speaker
+                    <p><b>Rate: Rs. 2200</b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(bs5)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+    </div>
+<br><br><br>
+    <!-- 2nd section -->
+    <h1>Phone</h1>
+        <br>
+        <div class="menfas">
+            
+            <figure class="container">
+                <div class="card" id="p1">
+                    <img src="https://images.unsplash.com/photo-1523206489230-c012c64b2b48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1vYmlsZSUyMHBob25lfGVufDB8fDB8fA%3D%3D&w=1000&q=80">
+                    <div class="title">Apple iphone 11
+                        <p><b>Rate: Rs. 80,000</b></p><br>
+                    </div>
+                    <div>
+                        <label>Quantity:</label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div><br>
+                    <div>
+                        <label>Size:</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>XL</option>
+                            <option>XXL</option>
+                        </select>
+                    </div>
+                   <b> <button onclick="addToCart(p1)">Add To Cart</button>
+                    <button><a href="checkout.html">Buy Now</a></button></b>
+                    </div>
+            </figure>
+    
+            <figure class="container">
+                <div class="card" id="p2">
+                    <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8&w=1000&q=80">
+                    <div class="title">Apple iphone 12
+                        <p><b>Rate: Rs. 90,000</b></p><br>
+                    </div>
+                    <div>
+                        <label>Quantity:</label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div><br>
+                    <div>
+                        <label>Size:</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>XL</option>
+                            <option>XXL</option>
+                        </select>
+                    </div>
+                   <b> <button onclick="addToCart(p2)">Add To Cart</button>
+                    <button><a href="checkout.html">Buy Now</a></button></b>
+                    </div>
+            </figure>
+            <figure class="container">
+                <div class="card" id="p3">
+                    <img src="https://images.unsplash.com/photo-1592832122594-c0c6bad718b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBwaG9uZXxlbnwwfHwwfHw%3D&w=1000&q=80">
+                    <div class="title">Apple iphone 14
+                        <p><b>Rate:Rs.  2,00,000</b></p><br>
+                    </div>
+                    <div>
+                        <label>Quantity:</label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div><br>
+                    <div>
+                        <label>Size:</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>XL</option>
+                            <option>XXL</option>
+                        </select>
+                    </div>
+                   <b> <button onclick="addToCart(p3)">Add To Cart</button>
+                    <button><a href="checkout.html">Buy Now</a></button></b>
+                    </div>
+            </figure>
+            <figure class="container">
+                <div class="card" id="p4">
+                    <img src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1662703724/Croma%20Assets/Communication/Mobiles/Images/261934_qgssvy.png/mxw_640,f_auto">
+                    <div class="title">Apple iphone 13
+                        <p><b>Rate: Rs. 1,00,000</b></p><br>
+                    </div>
+                    <div>
+                        <label>Quantity:</label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div><br>
+                    <div>
+                        <label>Size:</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>XL</option>
+                            <option>XXL</option>
+                        </select>
+                    </div>
+                   <b> <button onclick="addToCart(p4)">Add To Cart</button>
+                    <button><a href="checkout.html">Buy Now</a></button></b>
+                    </div>
+            </figure>
+            
+        <figure class="container">
+                <div class="card" id="p5">
+                    <img src="https://images.unsplash.com/photo-1611791485440-24e8239a0377?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80">
+                    <div class="title">Apple iphone 14 promax
+                        <p><b>Rate: Rs.2,00,000 </b></p><br>
+                    </div>
+                    <div>
+                        <label>Quantity:</label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div><br>
+                    <div>
+                        <label>Size:</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>XL</option>
+                            <option>XXL</option>
+                        </select>
+                    </div>
+                   <b> <button onclick="addToCart(p5)">Add To Cart</button>
+                    <button><a href="checkout.html">Buy Now</a></button></b>
+                    </div>
+            </figure>
+    </div>
+    <br><br><br>
+
+    <!-- 3rd section -->
+    <h1>Watches</h1>
+        <br>
+        <div class="menfas">
+        <figure class="container">
+            <div class="card" id="w1">
+                <img src="https://www.mytrendyphone.eu/images/Waterproof-Smartwatch-with-Heart-Rate-K12-IP68-Bluetooth-4-Rose-Gold-21052020-01-p.webp">
+                <div class="title">Noise ultra sony
+                    <p><b>Rate:Rs. 1200</b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(w1)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+    
+        <figure class="container">
+            <div class="card" id="w2">
+                <img src="https://m.media-amazon.com/images/I/510wf3wvr7L.SS200.jpg">
+                <div class="title">Firebolt Edwards
+                    <p><b>Rate:Rs. 2500</b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(w2)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+        <figure class="container">
+            <div class="card" id="w3">
+                <img src="https://cdn.shopify.com/s/files/1/0997/6284/products/Side04.png?v=1655395540">
+                <div class="title"> Boat premimum
+                    <p><b>Rate:Rs. 1000</b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(w3)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+        <figure class="container">
+            <div class="card" id="w4">
+                <img src="https://m.media-amazon.com/images/I/61aY0OaxbcL.AC_UF1000,1000_QL80.jpg">
+                <div class="title">Apple i4
+                    <p><b>Rate: 14,000</b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(w4)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+        
+        <figure class="container">
+            <div class="card" id="w5">
+                <img src="https://images.priceoye.pk/imilab-kieslect-l11-smart-watch-pakistan-priceoye-4r2tp-500x500.webp">
+                <div class="title">Fasttrack ultra
+                    <p><b>Rate: 4000</b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(w5)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+        </div>
+    <br><br><br>
+
+    <!-- 4th section -->
+    <h1>Bluetooth</h1>
+        <br>
+        <div class="menfas">
+        <figure class="container">
+            <div class="card" id="bt1">
+                <img src="https://www.sony.co.in/image/6c38457c5e4d73b6292f97dfa1c551d5?fmt=png-alpha&wid=660&hei=660" style="background: white;">
+                <div class="title">Boat Neckband
+                    <p><b>Rate: 1200</b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(bt1)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+    
+        <figure class="container">
+            <div class="card" id="b2">
+                <img src="https://www.sony.co.in/image/6ff70f66ce935f02861635b3e936a70c?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF">
+                <div class="title">Sony Heaband
+                    <p><b>Rate:Rs. 5000</b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(b2)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+        <figure class="container">
+            <div class="card" id="b3">
+                <img src="https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-82034304/82034304.jpg">
+                <div class="title">Philips bang
+                    <p><b>Rate: Rs. 6000</b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(b3)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+        <figure class="container">
+            <div class="card" id="bt4">
+                <img src="Photos/bluethooth4.jpg" alt="">
+                <div class="title">Outlier PRO
+                    <p><b>Rate: Rs. 4000</b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(bt4)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+        <figure class="container">
+            <div class="card" id="b5">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Z3_JjhfsNLdtl9PIA0hwx10rOuBvvcP0enII4-phK67u7lJLsty5tAckw62_liTVzNQ&usqp=CAU">
+                <div class="title">Hp max Headband
+                    <p><b>Rate: Rs.6000 </b></p><br>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(b5)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+    </div>
+    </center>
+<br><br>
+<div class="footerbox">
+    <footer class="footer">
+        <div class="container1">
+            <div class="row">
+                <div class="column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="aboutus.html">about us</a></li>
+                        <li><a href="contactus.html">contact us</a></li>
+                        <li><a href="pageconstruction.html">services</a></li>
+                        <!-- <li><a href="">JAZZLE Stores</a></li> -->
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="contact.html">FAQ</a></li>
+                        <li><a href="ship.html">Shipping</a></li>
+                        <li><a href="pageconstruction.html">payment options</a></li>
+                        <!-- <li><a href="">returns</a></li> -->
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>policy</h4>
+                    <ul>
+                        <li><a href="returnpolicy.html">return policy</a></li>
+                        <li><a href="termsofuse.html">terms of use</a></li>
+                        <li><a href="security1.html">security</a></li>
+                        <!-- <li><a href="">privacy</a></li> -->
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/v.i.c.k.y_26?igsh=cHg4dnVodGszczFn"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br>
+    <center><p class="rights">&copyCopyRights Reserved 2023</p></center>
+    </footer>
+    </div>
+
+    <script src="cart1.js"></script>
+</body>
+</html>

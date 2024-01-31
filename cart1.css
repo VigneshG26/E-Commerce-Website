@@ -1,0 +1,69 @@
+.containerrr{
+    float: right;
+    width: max-content;
+}
+.card{
+    box-shadow: 10px 10px 20px rgb(255, 195, 85);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 225px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    transition: .4s;
+   /* padding-bottom: 15px; */
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card img{
+    width: 200px;
+    height: 300px;
+    /* padding: 5px; */
+    padding-top: 10px;
+}
+.title{
+    font-weight: bolder;
+    margin: 10px 20px;
+}
+
+button{
+    border: 2px solid #e1701a;
+     background: #f7a440; 
+    color:black;
+    font-weight: bold;
+    margin: 10px 20px;
+    padding: 5px 10px;
+    border-radius: 15px;
+
+}
+button:hover{
+    background-color:rgb(226, 216, 197);
+}
+select{
+    background-color: #e1701a;
+    border-radius: 5px ;
+    padding: 5px;
+} 
+ /* #item2{
+    margin: 53px;
+}  */
+.cart{
+    width: 250px;
+    margin: 0%;
+    float: right;
+    position:relative;
+    text-align: center;
+    border: 2px solid black;
+    overflow-y: scroll;
+    height:75vh;
+    z-index:9999;
+    background-color: white;
+}
+.cart Img{
+    width:200px;
+}
+.butt{
+    display: flex;
+}

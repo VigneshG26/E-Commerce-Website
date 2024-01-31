@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jazzle</title>
+        <link rel="icon" href="Photos/samplelogo2.jpg">
+        <link rel="stylesheet" href="productpage.css">
+        <link rel="stylesheet" href="cart1.css"> 
+    <script src="https://kit.fontawesome.com/4211a110a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header>
+        <div class="logo"><a href="index.html"><img src="Photos/samplelogo2.jpg" width="148px" height="178px"></a></div>
+        <div class="cont">
+            <h2 id="h2">Jazzle</h2><br>
+            <input id="btn" type="text" placeholder="Search Products" name="search" style="opacity: 0;;">
+            <button id="b1" type="submit"><i class="fa fa-search" style="opacity: 0;"></i></button>
+        </div>
+        <ul class="ulclass">
+            <li><a href="index.html"><i class="fa fa-home" ></i>Home</li></a>
+            <li><a href="mens1.html"><i class="fa-solid fa-person"></i>Mens</li></a>
+            <li><a href="womens.html"><i class="fa-sharp fa-solid fa-person-dress"></i>Women</li></a>
+            <li><a href="kids.html"><i class="fa-solid fa-child-reaching"></i>Kids</li></a>
+            <li><a href="gadgets.html"><i class="fa-brands fa-product-hunt"></i> Gadgets</li></a>
+            <li><a href="login.html"><i class="fa fa-user-plus" ></i>Login</li></a>
+            <li><a href="registration.html"><i class="fa fa-sign-in" ></i>Register</li></a>
+            <!-- <li><a href="cart1.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i>Cart</li></a> -->
+            <li><a href="aboutus.html"><i class="fa-solid fa-address-card"></i> About</li></a>
+        </ul>
+    </header>
+    
+    <center>
+         <br><br><br>
+        <div class="cart" id="cart">
+            <div class="title">CART</div><hr/>
+            <div id="title"></div>
+        </div>
+
+        <!-- 1st section -->
+        <h1>Formal wear</h1>
+        <br>
+        <div class="menfas">
+
+        <figure class="container">
+            <div class="card" id="wf1">
+                <img src="https://ds393qgzrxwzn.cloudfront.net/resize/m600x500/cat1/img/images/0/v4MbkrAHcK.jpg">
+                <div class="title">Womens Formal<br><br>
+                    <p><b>Rate: Rs.600</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wf1)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+    
+
+          <figure class="container">
+            <div class="card" id="wf2">
+                <img src="https://qph.cf2.quoracdn.net/main-qimg-9680ba9212248e2619c154fa10b4b581-lq
+                ">
+                <div class="title">Womens Formal<br><br>
+                    <p><b>Rate:  Rs.900</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wf2)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+
+        <figure class="container">
+            <div class="card" id="wf3">
+                <img src="https://d2w9m16hs9jc37.cloudfront.net/dimg/blog/2021/06/278a0084.jpg">
+                <div class="title">Womens Formal <br><br>
+                    <p><b>Rate: Rs.5000</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wf3)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+
+        <figure class="container">
+            <div class="card" id="wf4">
+                <img src="https://d2w9m16hs9jc37.cloudfront.net/dimg/blog/2019/11/ig_fw19_suit_6.jpg
+                ">
+                <div class="title">Womens Formal<br><br>
+                    <p><b>Rate: Rs.3000</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wf4)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+
+        <figure class="container">
+            <div class="card" id="wf5">
+                <img src="https://3.bp.blogspot.com/-El0epeTuluw/TtpEnoT7W9I/AAAAAAAANro/P2kt9kOtnOA/s1600/WOMAN+Evening+Lookbook+By+ZARA+-1.jpg">
+                <div class="title">Womens Formal<br><br>
+                <p><b>Rate: Rs.1500</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wf5)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+
+    </div>
+<br><br><br>
+    <!-- 2nd section -->
+    <h1>Casual wear</h1>
+        <br>
+
+        <div class="menfas">
+            
+        <figure class="container">
+            <div class="card" id="wc1">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/hbz-editor-street-style-046-1653315562.jpg?resize=480:*
+                ">
+                <div class="title">Womens Casuals
+                    <p><b>Rate: Rs. 700</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wc1)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+    
+          <figure class="container">
+            <div class="card" id="wc2">
+                <img src="https://cdn.mos.cms.futurecdn.net/4jYqpcL2gVvZ3jQMEJifBA.jpg">
+                <div class="title">Womens Casuals
+                    <p><b>Rate: Rs. 600</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wc2)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+        <figure class="container">
+            <div class="card" id="wc3">
+                <img src="https://cdn.mos.cms.futurecdn.net/zTMiru5hb6cDvpv77dHqNM.jpg">
+                <div class="title">Womens Casuals
+                    <p><b>Rate: Rs. 2000</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wc3)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+        <figure class="container">
+            <div class="card" id="wc4">
+                <img src="https://cdn.mos.cms.futurecdn.net/fAgrxfBJKvtd46cGXzEM8U.jpg">
+                <div class="title">Womens Casuals
+                    <p><b>Rate: Rs. 6000</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wc4)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+        <figure class="container">
+            <div class="card" id="wc5">
+                <img src="https://cdn.mos.cms.futurecdn.net/bhKJMu9QyuHpCC82SBLuWW.jpg">
+                <div class="title">Womens Casuals
+                    <p><b>Rate: Rs. 900</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wc5)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+    </div>
+    <br><br><br>
+
+    <!-- 3rd section -->
+    <h1>Traditional wear</h1>
+
+        <br>
+        <div class="menfas">
+            
+        <figure class="container">
+            <div class="card" id="wt1">
+                <img src="https://images.unsplash.com/photo-1610048869310-d889ff25c374?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aW5kaWFuJTIwZHJlc3N8ZW58MHx8MHx8&w=1000&q=80
+                ">
+                <div class="title">Womens Traditional
+                    <p><b>Rate: Rs. 900</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wt1)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+    
+          <figure class="container">
+            <div class="card" id="wt2">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2020/11/EZ/KL/ID/42821634/designer-party-wear-night-gown-1000x1000.jpeg
+                ">
+                <div class="title">Womens Traditional
+                    <p><b>Rate: Rs. 1000</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wt2)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+        <figure class="container">
+            <div class="card" id="wt3">
+                <img src="https://webmerx.sgp1.cdn.digitaloceanspaces.com/ethnicroop/product_images/1556174984.ER118216_(2).jpeg
+                ">
+                <div class="title">Womens Traditional
+                    <p><b>Rate: Rs. 900</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wt3)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+        <figure class="container">
+            <div class="card" id="wt4">
+                <img src="https://assets.shopkund.co.uk/media/catalog/product/cache/1/small_image/282x425/9df78eab33525d08d6e5fb8d27136e95/a/c/acu7754-1-black-stone-embroidered-party-wear-saree-in-silk-crepe-sr23350_1_.jpg
+                ">
+                <div class="title">Womens Traditional
+                    <p><b>Rate: Rs. 8300</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wt4)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+        <figure class="container">
+            <div class="card" id="wt5">
+                <img src="https://cdn.shopify.com/s/files/1/0182/1471/5470/collections/3308.jpg?v=1652521791">
+                <div class="title">Womens Traditional
+                    <p><b>Rate: Rs. 1000</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wt5)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+    </div>
+    <br><br><br>
+
+    <!-- 4th section -->
+    <h1>Party wear</h1>
+        <br>
+        <div class="menfas">
+            
+        <figure class="container">
+            <div class="card" id="wp1">
+                <img src="https://images.unsplash.com/photo-1622079400125-5b6679552976?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ja3RhaWwlMjBkcmVzc3xlbnwwfHwwfHw%3D&w=1000&q=80">
+                <div class="title">Womens PartyWear
+                    <p><b>Rate: Rs. 1000</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wp1)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+    
+          <figure class="container">
+            <div class="card" id="wp2">
+                <img src="https://5.imimg.com/data5/SD/FD/CZ/SELLER-23600402/ladies-party-wear-gown.jpg">
+                <div class="title">Womens PartyWear
+                    <p><b>Rate: Rs. 7000</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wp2)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+        <figure class="container">
+            <div class="card" id="wp3">
+                <img src="https://www.thesun.co.uk/wp-content/uploads/2018/12/NINTCHDBPICT000453718428.jpg?strip=all&w=640">
+                <div class="title">Womens PartyWear
+                    <p><b>Rate: Rs. 5000</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wp3)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+        <figure class="container">
+            <div class="card" id="wp4">
+                <img src="https://rangoliindia.com/uploads/17_Rang_1280.JPG">
+                <div class="title">Womens PartyWear
+                    <p><b>Rate: Rs. 9000</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wp4)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+
+        <figure class="container">
+            <div class="card" id="wp5">
+                <img src="https://images.unsplash.com/photo-1589212987511-4a924cb9d8ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29ja3RhaWwlMjBkcmVzc3xlbnwwfHwwfHw%3D&w=1000&q=80
+                ">
+                <div class="title">Womens PartyWear
+                    <p><b>Rate: Rs. 4000</b></p>
+                </div>
+                <div>
+                    <label>Quantity:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+               <b> <button onclick="addToCart(wp5)">Add To Cart</button>
+                <button><a href="checkout.html">Buy Now</a></button></b>
+                </div>
+        </figure>
+    </div>
+    </center>
+
+<br><br>
+
+<div class="footerbox">
+    <footer class="footer">
+        <div class="container1">
+            <div class="row">
+                <div class="column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="aboutus.html">about us</a></li>
+                        <li><a href="contactus.html">contact us</a></li>
+                        <li><a href="https://www.google.com/maps/search/D.G.Vaishnav/@13.0747949221911,80.2127552072403,17z" target="_blank">Get direction</a></li>
+                        <!-- <li><a href="">JAZZLE Stores</a></li> -->
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="contact.html">FAQ</a></li>
+                        <li><a href="ship.html">Shipping</a></li>
+                        <li><a href="pageconstruction.html">payment options</a></li>
+                        <!-- <li><a href="">returns</a></li> -->
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>policy</h4>
+                    <ul>
+                        <li><a href="returnpolicy.html">return policy</a></li>
+                        <li><a href="termsofuse.html">terms of use</a></li>
+                        <li><a href="security1.html">security</a></li>
+                        <!-- <li><a href="">privacy</a></li> -->
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/v.i.c.k.y_26?igsh=cHg4dnVodGszczFn"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br>
+    <center><p class="rights">&copyCopyRights Reserved 2023</p></center>
+    </footer>
+    </div>
+
+    <script src="cart1.js"></script>
+</body>
+</html>

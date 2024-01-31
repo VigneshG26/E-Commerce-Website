@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:Garamond;    
+}
+.photoz{
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-color: white;
+    box-shadow: 10px 10px 30px rgb(255, 166, 0);      
+    background-image: url("Photos/discount1.jpg");
+    animation: slider 20s infinite ease-in-out;
+
+}
+@keyframes slider{
+    25%{background-image: url("Photos/discount2.jpg");}
+    50%{background-image: url("Photos/Kurthas offer.jpg");}
+    75%{background-image: url("Photos/Winter sale offer.jpg");}
+}
+body{
+    background-color:white;
+}
+#h2{
+    font-size: 100px;
+    color:white;
+    text-shadow: 2px 5px 5px orange;      
+}
+.men img{
+    height: 300px;
+    width: 200px;
+    background-color:white;
+}
+.women img{
+    height: 300px;
+    width: 200px;
+    background-color:white;
+
+}
+.kids img{
+    height: 300px;
+    width: 200px;    
+    background-color:white;
+}
+.gadgets img{
+    height: 300px;
+    width: 200px;
+    background-color:white;
+}
+.sec a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    text-shadow: 10px 1px 7px orange;
+
+}
+.logo{
+    position: absolute;
+    margin: 0%;
+}
+.logo img{
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    margin-top: 7px;
+    margin-left: 25px;
+    aspect-ratio: 1/1;
+}
+.cont{
+    padding: 17px;
+    background-image:url(https://marketplace.canva.com/EAFTQEWI-Ko/1/0/1600w/canva-black-sky-galaxy-stars-desktop-wallpaper-iWMZ0xN6KXs.jpg);
+    height: 200px;
+    width: 100%;
+    background-color:rgb(0, 0, 0,0.5);
+    color: white;
+    margin: 0%;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+.cont h4{
+    margin-bottom: 23px;
+    margin-top: 0%;
+}
+#btn{
+    border-radius: 7px;
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 5px 20px rgb(255, 166, 0); 
+
+
+}
+#b1{
+    padding: 5px;
+    border: none;
+    margin: none;
+    color:white;
+    background: none;
+    /* box-shadow: 2px 5px 20px rgb(255, 166, 0);       */
+
+}
+#b1 :hover{
+    font-size:medium;
+    box-shadow: 2px 5px 20px rgb(255, 166, 0);      
+}
+span{
+    padding:30px;
+}
+.ulclass{
+    list-style: none;
+    text-align: right;
+    background-color: orange;
+    padding: 0px;
+    margin: 0%;
+}
+.ulclass li{
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    margin: 0% 10px;
+    font-size: 19px;
+    /* border-radius: 15px; */
+}
+.ulclass li:hover{
+    background-color:white;
+    color:white;
+
+}
+/* .ulclass li a:hover{
+    color:white;
+} */
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: black;
+    padding: 70px 0;
+}
+.column{
+    width:25%;
+    padding: 0 15px;
+}
+.column h4{
+    font-size: 18px;
+    color:aliceblue;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    text-decoration:underline;
+    text-decoration-color: white;
+}
+
+.column ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.column ul li a{
+    font-size: 17px;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    font-size: larger;
+    color:white;
+}
+.column ul li a:hover{
+    color:orange;
+    font-size: larger;
+    padding-left: 5px;
+}
+.column .social-links a{
+    display: inline-block;
+    height:40px;
+    width:40px;
+    background-color: rgba(110, 108, 108, 0.5);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.column .social-links a:hover{
+    color:white;
+    background-color:orange;
+    transform: translateY(-10px);
+}
+.rights{
+    font-size: 20px;
+    color:aliceblue;
+    text-transform: capitalize;
+}
+.content_img img{
+    height: 300px;
+    width: 200px;
+    margin-right: 30px;
+    /* border: 2px solid #6E6E6E; */
+    /* filter: blur(1px); */
+    display: inline-block;
+    /* box-shadow: -5px -5px 30px #6E6E6E,10px 10px 30px #6E6E6E; */
+
+}
+
+.content_img img:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1);
+    filter: blur(0px);
+    margin: none;
+    border: none;
+    background: none;
+    border-radius: 7px;
+    /* background-color: #6d88c6;
+    border: 2px solid #6d88c6; */
+    /* box-shadow: -5px -5px 30px #6d88c6,10px 10px 30px #6d88c6; */
+    /* transform: rotate(5deg); */
+
+}
+.marquee{
+    overflow: hidden;
+}
+.marquee-content {
+    display: flex;
+    animation: scrolling 20s linear infinite;
+}
+
+.marquee-item {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+/*   flex: 0 0 20vw; */
+/*   margin: 0 2vw; */
+}
+
+.marquee-item img {
+    display: block;
+    width: 700px;
+    height: 400px;
+/*   padding: 0 20px; */
+}
+
+@keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translatex(-144vw); }
+}
+
+#bgi img{
+    float: right;
+}
+.tit{
+    padding: 20px;
+    text-decoration: underline;
+}
+.box h3{
+    font-size: 25px;
+    font-weight: lighter;
+    padding-left: 30px;
+    color:  darkorange;
+}
+.box p{
+    font-size: 20px;
+    text-indent: 60px;
+    padding-left: 30px;
+}
+::selection{
+    background-color: orange;
+}
+#pripol li{
+    font-size: 20px;
+    text-indent: 120px;
+}

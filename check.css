@@ -1,0 +1,48 @@
+.check{
+    justify-content: center;
+}
+.columnn {
+    /* float: left; */
+    width: 350px;
+    padding:15px; 
+    height: 450px;
+    background-color: orange;
+    border-radius: 15px;
+    /* opacity: 60%; */
+    text-align: center;
+   border: 1px solid black;
+      
+    
+  }
+
+  input{
+    background-color: rgb(188, 212, 224);
+    color: black;
+    opacity: 0.6;
+    border-radius: 10px;
+    width:150px;
+    height: 30px;
+    opacity: 1;
+    border: 10px;
+    border: 2px solid black;
+
+}
+.b:hover{
+      background-color:rgb(162, 162, 162);
+      text-align:center;
+}
+::placeholder{
+    text-align: center;
+}
+#upi{
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(188, 212, 224);   
+    border: 2px solid black;
+}
+#mnth{
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(188, 212, 224);    
+    border: 2px solid black;
+}
