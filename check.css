@@ -2,13 +2,11 @@
     justify-content: center;
 }
 .columnn {
-    /* float: left; */
     width: 350px;
     padding:15px; 
     height: 450px;
     background-color: orange;
     border-radius: 15px;
-    /* opacity: 60%; */
     text-align: center;
    border: 1px solid black;
       
